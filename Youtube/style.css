@@ -1,22 +1,22 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 
-a{
+a {
     text-decoration: none;
     color: blue;
-} 
+}
 
 i {
     cursor: pointer;
     color: #000000;
 }
 
-img{
-    cursor:pointer;
+img {
+    cursor: pointer;
 }
 
 .flex {
@@ -36,16 +36,16 @@ img{
     z-index: 10;
 }
 
-.menu-icon i{
+.menu-icon i {
     font-size: 20px;
     margin-right: 25px;
-    padding:10px;
+    padding: 10px;
     /* padding: 10px;
     border-radius: 50%; 
     animation: attract 7s linear 0s infinite normal; */
-}  
+}
 
-.nav-left img{
+.nav-left img {
     width: 100px;
     filter: drop-shadow(0px 4px 6px 4px blue);
 }
@@ -59,7 +59,7 @@ img{
     background: transparent;
 }
 
-.nav-center i{
+.nav-center i {
     font-size: 20px;
     margin-right: 25px;
     /* padding:10px; */
@@ -74,21 +74,21 @@ img{
     padding-right: 5px;
 }
 
-.search input{
+.search input {
     font-size: 18px;
 }
 
-.nav-center i{
+.nav-center i {
     padding: 10px;
 }
 
 .search i {
     padding-top: 8px;
     margin-right: 5px;
-    padding:0px;
+    padding: 0px;
 }
 
-.nav-right i{
+.nav-right i {
     font-size: 20px;
     margin-right: 25px;
     padding: 10px;
@@ -98,22 +98,22 @@ img{
     width: 35px;
 }
 
-.nav-right img:hover{
+.nav-right img:hover {
     border-radius: 50%;
     box-shadow: rgb(255, 0, 0) 0px 20px 30px -10px;
 }
 
-.header i:hover{
+.header i:hover {
     border: 0px solid transparent;
     border-radius: 50%;
     background-color: rgb(238, 238, 238);
 }
 
-.search i:hover{
+.search i:hover {
     background-color: #fff;
-}
-
-.extra{
+}    
+   
+.extra {
     display: none;
 }
 
@@ -121,37 +121,41 @@ img{
     background: #fff;
     width: 15%;
     height: 100vh;
-    position:fixed ;
-    top: 0;
+    position: fixed;
+    top: 50;
     padding-left: 2%;
-    padding-top: 80px;
+    /* padding-top: 80px; */
+    overflow-y: auto;
+    /* margin-top: 50px; */
+    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
-.menu a i{
+.menu a i {
     margin-right: 2%;
     width: 20px;
     font-size: 22px;
     margin-right: 20px;
 }
 
-.menu a{
+.menu a {
     color: black;
     display: flex;
     align-items: center;
-    margin-bottom: 12px; 
+    margin-bottom: 12px;
     width: fit-content;
     flex-wrap: wrap;
 }
 
-.menu10 i{
+.menu10 i {
     color: red;
 }
 
-.menu a:first-child{
+.menu a:first-child {
     color: red;
 }
 
-.menu hr{
+.menu hr {
     width: 85%;
     border: 0;
     height: 1px;
@@ -172,13 +176,13 @@ img{
     font-size: 30px;
 }
 
-.menu2{    
+.menu2 {
     padding: 5px 10px;
     border: 0px solid transparent;
     border-radius: 8px;
 }
 
-.menu2:hover{
+.menu2:hover {
     font-size: 20px;
 }
 
@@ -189,13 +193,13 @@ img{
     color: #000000;
 }
 
-.subscribe a{
+.subscribe a {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
     width: fit-content;
     flex-wrap: wrap;
-    color:black;
+    color: black;
 }
 
 .subscribe img {
@@ -204,7 +208,7 @@ img{
     margin-right: 20px;
 }
 
-.small-sidebar{
+.small-sidebar {
     display: none;
     /* padding-left: 2.5%; */
 }
@@ -230,14 +234,14 @@ img{
     padding-right: 2%;
 }
 
-.tabs{
+.tabs {
     display: flex;
     justify-content: flex-start;
     flex-wrap: nowrap;
     overflow-x: auto;
 }
 
-.tabs p{
+.tabs p {
     padding: 7px 14px;
     border: 0px solid transparent;
     border-radius: 14px;
@@ -247,11 +251,11 @@ img{
     cursor: pointer;
 }
 
-.tabs p:hover{
+.tabs p:hover {
     background-color: rgb(184, 182, 182);
 }
 
-.large-container{
+.large-container {
     padding-left: 2%;
 }
 
@@ -260,7 +264,7 @@ img{
     margin-top: 10px;
 }
 
-.banner img{
+.banner img {
     width: 100%;
     /* height: 300px; */
     border-radius: 8px;
@@ -269,11 +273,11 @@ img{
 .vlist {
     display: flex;
     justify-content: space-evenly;
-    align-items: flex-start ;
+    align-items: flex-start;
     flex-wrap: wrap;
 }
 
-.thumbnail{
+.thumbnail {
     width: 100%;
     border-radius: 10px;
 }
@@ -285,8 +289,9 @@ img{
     border-radius: 20px;
 }
 
-.box1:hover{
+.box1:hover {
     width: 26%;
+    transition: .20s ease-in;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
@@ -300,14 +305,14 @@ img{
     border-radius: 50%;
 }
 
-.vinfo a{
+.vinfo a {
     margin-left: 10px;
     color: #000000;
     font-weight: 600;
     font-size: 17px;
 }
 
-.flex1 p{
+.flex1 p {
     padding-left: 50px;
     font-size: 14px;
     color: rgb(66, 66, 66);
@@ -317,15 +322,16 @@ img{
 
 
 
-@media (max-width:1350px){
-    .sidebar{
+@media (max-width:1350px) {
+    .sidebar {
         padding-left: 0.5%;
     }
-    .menu1{
+
+    .menu1 {
         font-size: 15px;
     }
 
-    .menu2{
+    .menu2 {
         font-size: 15px;
     }
 
@@ -338,34 +344,34 @@ img{
 
 
 
-@media (max-width:1150px){
-    .menu1{
+@media (max-width:1150px) {
+    .menu1 {
         display: flex;
     }
 
-    .menu1 a{
+    .menu1 a {
         display: none;
         margin-bottom: 0px;
     }
 
-    .menu1{
+    .menu1 {
         padding-left: 15%;
     }
 
-    .menu4 p{
+    .menu4 p {
         font-size: 15px;
     }
 
-    .menu4 i{
+    .menu4 i {
         padding-left: 0;
     }
 
-    .menu3{
+    .menu3 {
         display: flex;
         flex-direction: column;
     }
 
-    .menu2{
+    .menu2 {
         /* font-size: 20px; */
         padding-left: 15%;
     }
@@ -374,56 +380,56 @@ img{
         width: 31%;
     }
 
-    .box1:hover{
+    .box1:hover {
         width: 33%;
     }
 
-    .thumbnail2{
+    .thumbnail2 {
         width: 35px;
     }
 
-    .flex1 p{
+    .flex1 p {
         padding-left: 45px;
     }
 
-    .subscribe a{
+    .subscribe a {
         margin-bottom: 10px;
     }
 
 }
 
-@media (max-width:920px){
-    .nav-center input{
+@media (max-width:920px) {
+    .nav-center input {
         width: 300px;
     }
 
-    .search{
+    .search {
         margin-left: 50px;
     }
 
-    .nav-left i{
+    .nav-left i {
         margin-right: 20px;
         padding-right: 0px;
         font-size: 25px;
     }
 
-    .nav-left img{
+    .nav-left img {
         width: 75px;
     }
 
-    .nav-right img{
+    .nav-right img {
         width: 28px;
     }
 }
 
-@media (max-width:820px){
-    
+@media (max-width:820px) {
 
-    .nav-center input{
+
+    .nav-center input {
         width: 200px;
     }
 
-    .header i{
+    .header i {
         font-size: 15px;
     }
 
@@ -431,27 +437,27 @@ img{
         height: 35px;
     }
 
-    .search input{
+    .search input {
         padding-bottom: 5px;
     }
 
-    .menu i{
+    .menu i {
         font-size: 30px;
     }
 
-    .menu p{
+    .menu p {
         display: none;
     }
 
-    .menu hr{
+    .menu hr {
         display: none;
     }
 
-    .subscribe h3{
+    .subscribe h3 {
         display: none;
     }
 
-    .menu2 p{
+    .menu2 p {
         display: none;
     }
 
@@ -459,44 +465,44 @@ img{
         width: 30px;
     }
 
-    .sidebar{
+    .sidebar {
         width: 10%;
         padding-left: 15px;
     }
 
-    .container{
+    .container {
         padding-left: 2%;
     }
 
-    .box1{
+    .box1 {
         width: 47%;
     }
 
-    .box1:hover{
+    .box1:hover {
         width: 49%;
     }
 }
 
-@media(max-width:700px){
-    .nav-center input{
+@media(max-width:700px) {
+    .nav-center input {
         width: 150px;
     }
 }
 
-@media (max-width:650px){
-    .nav-left{
+@media (max-width:650px) {
+    .nav-left {
         width: 70%;
     }
 
-    .nav-left i{
+    .nav-left i {
         display: none;
     }
 
-    .nav-right img{
+    .nav-right img {
         display: none;
     }
 
-    .moon{
+    .moon {
         margin-left: 15%;
     }
 
@@ -504,54 +510,54 @@ img{
         font-size: 20px;
     }
 
-    .extra{
+    .extra {
         display: block;
         /* font-size: 30px; */
         font-weight: 900;
         padding-right: 2px;
-    } 
+    }
 
-    .sidebar{
+    .sidebar {
         display: none;
     }
 
-    .banner{
+    .banner {
         display: none;
     }
 
-    .container{
+    .container {
         padding-left: 2%;
     }
 
-    .nav-center input{
+    .nav-center input {
         width: 150px;
     }
 
-    .search i{
+    .search i {
         display: none;
     }
 
-    .nav-left img{
+    .nav-left img {
         padding-left: 10px;
     }
 }
 
 
 
-@media (max-width:550px){
-    .nav-center{
+@media (max-width:550px) {
+    .nav-center {
         display: none;
     }
 
-    .nav-left img{
+    .nav-left img {
         padding-left: 10px;
     }
 
-    .box1{
+    .box1 {
         width: 94%;
     }
 
-    .box1:hover{
+    .box1:hover {
         width: 97%;
     }
 }
@@ -567,7 +573,7 @@ img{
 
 
 
-.play-container{
+.play-container {
     padding-left: 2%;
     /* width: 600px; */
 }
@@ -578,85 +584,85 @@ img{
     flex-wrap: wrap;
 }
 
-.play-video{
+.play-video { 
     flex-basis: 69%;
     margin-bottom: 5px;
 }
 
-.right-bar{
+.right-bar {
     flex-basis: 30%;
 }
 
-.play-video video{
+.play-video video {
     width: 100%;
     border-radius: 20px;
 }
 
-.side-video{
+.side-video {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 8px;
     border-radius: 5px;
 }
 
-.side-video img{
+.side-video img {
     width: 100%;
     border-radius: 15px;
 }
 
-.small-thumbnail{
+.small-thumbnail {
     flex-basis: 49%;
 }
 
-.vinfo1{
+.vinfo1 {
     flex-basis: 49%;
     display: flex;
     justify-content: space-between;
 }
 
-.title{
+.title {
     display: flex;
     flex-direction: column;
     margin-left: 5px;
 }
 
-.title a{
+.title a {
     color: #000000;
     font-weight: 600;
 }
 
-.title p{
+.title p {
     color: rgb(84, 84, 84);
     font-size: 14px;
 }
 
-.text-under{
+.text-under {
     padding-left: 5px;
 }
 
-.tags a{
-    color:#000fff;
+.tags a {
+    color: #000fff;
     margin-right: 5px;
 }
 
-.tags{
+.tags {
     font-size: 15px;
     padding-top: 5px;
 }
 
-.play-video h3{
+.play-video h3 {
     font-size: 22px;
     font-weight: 600;
     padding-top: 5px;
 
 }
 
-.views{
+.views {
     color: grey;
     font-size: 15px;
 }
 
-.likes i{
+.likes i {
     width: 20px;
     font-size: 20px;
     margin-right: 3px;
@@ -665,78 +671,78 @@ img{
     margin-top: 2px;
 }
 
-.likes{
+.likes {
     color: rgb(109, 109, 109);
     cursor: pointer;
     display: flex;
     justify-content: flex-end;
 }
 
-.likes i:hover{
-    color:blue;
-    font-size: 25px;
-}
-
-.liked i{
+.likes i:hover {
     color: blue;
     font-size: 25px;
 }
 
-.liked1 i{
+.liked i {
     color: blue;
     font-size: 25px;
 }
 
-.view-like{
+.liked1 i {
+    color: blue;
+    font-size: 25px;
+}
+
+.view-like {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
     padding-bottom: 10px;
 }
 
-.view-like hr{
+.view-like hr {
     height: 1px;
     color: rgb(102, 101, 101);
 }
 
-.author1{
+.author1 {
     display: flex;
     justify-content: center;
 }
 
-.author1 img{
+.author1 img {
     width: 40px;
     height: 40px;
     border-radius: 50%;
 }
 
-.author1 p{
+.author1 p {
     padding-left: 8px;
 }
 
-.name{
+.name {
     padding-top: 2px;
     padding-left: 8px;
     cursor: pointer;
 }
 
-.author1 p:first-child{
+.author1 p:first-child {
     font-size: 17px;
     font-weight: 700;
 }
 
-.author1 p:nth-child(2){
+.author1 p:nth-child(2) {
     font-size: 14px;
     color: rgb(109, 108, 108);
 }
 
-.author{
+.author {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
 }
 
-.author2 button{
+.author2 button {
     /* margin-top: 5px; */
     border: none;
     background-color: red;
@@ -747,7 +753,7 @@ img{
     font-size: 15px;
 }
 
-.author2 button:hover{
+.author2 button:hover {
     padding: 10px;
     font-size: 15px;
 }
@@ -758,32 +764,32 @@ img{
     padding-left: 55px;
 }
 
-.discription p{
+.discription p {
     padding-top: 8px;
 }
 
-.discription :nth-child(2){
+.discription :nth-child(2) {
     padding-bottom: 10px;
 }
 
-.comments p{
+.comments p {
     font-size: 16px;
     font-weight: 600;
     color: #000000;
 }
 
-.profile2 img{
+.profile2 img {
     width: 40px;
     height: 40px;
 }
 
-.profile2{
+.profile2 {
     display: flex;
     justify-content: center;
     margin-top: 15px;
 }
 
-.profile2 input{
+.profile2 input {
     width: 98%;
     margin-left: 1%;
     margin-right: 1%;
@@ -798,44 +804,44 @@ img{
     padding-left: 10px;
 }
 
-.comment2 img{
+.comment2 img {
     border-radius: 50%;
     width: 40px;
     height: 40px;
 }
 
-.comment2{
+.comment2 {
     padding-top: 15px;
 }
 
-.comment4{
+.comment4 {
     display: flex;
-    justify-content:flex-start;
+    justify-content: flex-start;
 }
 
-.comment4 p{
-    margin-left: 15px;    
+.comment4 p {
+    margin-left: 15px;
     font-size: 14px;
     color: rgb(88, 86, 86);
 }
 
-.comment1{
+.comment1 {
     display: flex;
     justify-content: space-between;
     gap: 0;
     margin-top: 20px;
 }
 
-.comment3{
+.comment3 {
     margin-left: 10px;
 }
 
-.comment4 h3{
+.comment4 h3 {
     font-size: 18px;
     color: #000000;
 }
 
-.comment5 p{
+.comment5 p {
     color: #000000;
     font-weight: 300;
     padding-top: 0;
@@ -847,23 +853,23 @@ img{
 
 
 
-@media (max-width:1250px){
-    .title a{
+@media (max-width:1250px) {
+    .title a {
         font-size: 14px;
     }
 
-    .title p{
+    .title p {
         font-size: 12px;
     }
 }
 
 
-@media(max-width:1100px){
-    .title a{
+@media(max-width:1100px) {
+    .title a {
         font-size: 12px;
     }
 
-    .title p{
+    .title p {
         font-size: 10px;
     }
 }
@@ -872,8 +878,8 @@ img{
 
 
 
-@media (max-width:1000px){
-    .play-video{
+@media (max-width:1000px) {
+    .play-video {
         flex-basis: 98%;
         padding-left: 2%;
     }
@@ -888,12 +894,12 @@ img{
         padding-left: 4%;
     }
 
-    .title a{
+    .title a {
         font-size: 28px;
         padding-bottom: 20px;
     }
 
-    .title p{
+    .title p {
         font-size: 20px;
     }
 }
@@ -901,55 +907,55 @@ img{
 
 
 
-@media(max-width:750px){
-    .title a{
+@media(max-width:750px) {
+    .title a {
         font-weight: 600;
         font-size: 23px;
         padding-bottom: 15px;
     }
 
-    .title p{
+    .title p {
         font-size: 17px;
     }
 }
 
 
 
-@media(max-width:600px){
+@media(max-width:600px) {
 
-    .nav-right{
+    .nav-right {
         padding-left: 0;
         margin-left: 0;
         margin-right: 20px;
     }
 
-    .title a{
+    .title a {
         font-weight: 600;
         font-size: 20px;
         padding-bottom: 12px;
     }
 
-    .title p{
+    .title p {
         font-size: 13px;
     }
 }
 
 
 
-@media(max-width:500px){
-    .tags{
+@media(max-width:500px) {
+    .tags {
         font-size: 12px;
     }
 
-    .text-under h3{
+    .text-under h3 {
         font-size: 19px;
     }
 
-    .views{
+    .views {
         font-size: 12px;
     }
 
-    .likes i{
+    .likes i {
         font-size: 16px;
         margin-left: 5px;
         margin-right: 0;
@@ -959,61 +965,62 @@ img{
         font-size: 12px;
     }
 
-    .author1 p:first-child{
+    .author1 p:first-child {
         font-size: 15px;
     }
-    
-    .author1 p:nth-child(2){
+
+    .author1 p:nth-child(2) {
         font-size: 12px;
     }
 
 
-    .author2 button{
+    .author2 button {
         padding: 3px;
     }
 
-    .discription{
+    .discription {
         font-size: 12px;
     }
 
-    .comments p{
+    .comments p {
         font-size: 14px;
     }
 
-    .profile2 img{
+    .profile2 img {
         margin-top: 5px;
     }
-    .comment4{
+
+    .comment4 {
         padding-top: 10px;
     }
 
-    .comment4 h3{
+    .comment4 h3 {
         font-size: 14px;
     }
 
-    .comment4 p{
+    .comment4 p {
         font-size: 12px;
     }
 
-    .comment5 p{
+    .comment5 p {
         font-size: 12px;
         padding: 0;
         margin: 0;
     }
 
-    .profile2 input{
+    .profile2 input {
         padding: 0;
         margin-bottom: 0;
         padding-top: 20px;
     }
 
-    .title a{
+    .title a {
         font-weight: 600;
         font-size: 18px;
         padding-bottom: 10px;
     }
 
-    .title p{
+    .title p {
         font-size: 12px;
     }
 }
@@ -1027,14 +1034,14 @@ img{
 
 
 
-.dark1{
+.dark1 {
     background: #000000;
 }
 
-.dark1 i{
+.dark1 i {
     color: white;
 }
 
-.S1{
+.S1 {
     border-radius: 50%;
 }
